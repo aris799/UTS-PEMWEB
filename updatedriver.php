@@ -22,6 +22,7 @@
         } else {
             $status="error";
         }
+        header('Location: driver.php?status='.$result);
       
     }
 ?>
