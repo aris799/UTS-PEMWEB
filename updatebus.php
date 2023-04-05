@@ -21,6 +21,7 @@
         } else {
             $status="error";
         }
+        header('Location: bus.php?status='.$result);
     }
 ?>
 <!DOCTYPE html>
