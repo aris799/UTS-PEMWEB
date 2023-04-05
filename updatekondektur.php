@@ -20,7 +20,8 @@
         } else {
             $status="error";
         }
-       
+       header('Location: kondektur.php?status='.$result);
+    
     }
 ?>
 <!DOCTYPE html>
