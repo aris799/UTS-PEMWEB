@@ -24,6 +24,7 @@
         } else {
             $status="error";
         }
+         header('Location: trans.php?status='.$result);
    
     }
 ?>
